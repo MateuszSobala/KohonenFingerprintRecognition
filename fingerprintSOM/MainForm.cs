@@ -728,7 +728,7 @@ namespace SOMOrganizing
                         needToStop = true;
                 }
 
-                _resource.SaveTaughtPeople(networkHelper._inputs, _SOMParams);
+                //_resource.SaveTaughtPeople(networkHelper._inputs, _SOMParams);
 
                 networkHelper.Teach(iterations, iter);
 		        iter++;
